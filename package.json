@@ -22,6 +22,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "@jaredreisinger/react-crossword": "^4.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
