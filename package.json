@@ -4,22 +4,22 @@
   "homepage": "https://euporphium.github.io/crossword",
   "source": "src/index.html",
   "scripts": {
-    "predeploy": "parcel build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "parcel",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/euporphium/euporphium.github.io.git"
+    "url": "git+https://github.com/euporphium/crossword.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/euporphium/euporphium.github.io/issues"
+    "url": "https://github.com/euporphium/crossword/issues"
   },
-  "homepage": "https://github.com/euporphium/euporphium.github.io#readme",
+  "homepage": "https://github.com/euporphium/crossword#readme",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "parcel": "^2.6.2",
